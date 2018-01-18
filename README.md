@@ -1,6 +1,7 @@
 # iphone
 
-SQL for SQLite DB.
+SQL for iPhone SQLite DB.
+This worked on backup file created by iTunes running on Windows 10.
 
 Joins 2 SQLite database file. #1: Address Book,  #2: Call Log.
 
