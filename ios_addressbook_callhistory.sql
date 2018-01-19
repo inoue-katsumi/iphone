@@ -5,7 +5,10 @@
 -- Below 2 are sqlite db file names.
 -- This can be queried from Manifest.db as I explained in my blog.
 -- https://katsumiinoue.wordpress.com/2018/01/17/itunes%e3%83%90%e3%83%83%e3%82%af%e3%82%a2%e3%83%83%e3%83%97%e3%81%8b%e3%82%89iphone%e3%81%ae%e9%80%9a%e8%a9%b1%e5%b1%a5%e6%ad%b4%e3%82%92sqlite%e3%81%a7%e5%8f%96%e3%82%8a%e5%87%ba%e3%81%99/
+--
+-- AddressBook.sqlitedb equivalent in iTunes backup
 attach "31/31bb7ba8914766d4ba40d6dfb6113c8b614be442" as ab;
+-- "CallHistory.storedata" or "call_history.db" equivalent.
 attach "5a/5a4935c78a5255723f707230a451d79c540d2741" as cl;
 --
 select
